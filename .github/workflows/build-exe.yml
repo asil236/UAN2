@@ -24,12 +24,12 @@ jobs:
         pip install pyinstaller -r requirements.txt
 
     - name: Build with PyInstaller
-      run: |
-        pyinstaller --noconfirm --noconsole --onefile ^
-          --add-data "lufs_config.json;." ^
-          --add-data "docs/help_documentation.md;docs" ^
-          --icon=icon.ico ^
-          main.py
+      run: >
+        pyinstaller --noconfirm --noconsole --onefile
+        --add-data "lufs_config.json;."
+        --add-data "docs/help_documentation.md;docs"
+        --icon=icon.ico
+        main.py
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
