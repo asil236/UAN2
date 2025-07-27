@@ -1,0 +1,27 @@
+{
+  "-12": {
+    "suffix": "_SFX",
+    "name": "SFX",
+    "color": "#FF4444"
+  },
+  "-14": {
+    "suffix": "_MSC",
+    "name": "Music",
+    "color": "#4444FF"
+  },
+  "-16": {
+    "suffix": "_DLG",
+    "name": "Dialog",
+    "color": "#44FF44"
+  },
+  "-18": {
+    "suffix": "_UI",
+    "name": "UI",
+    "color": "#FFAA44"
+  },
+  "-20": {
+    "suffix": "_AMB",
+    "name": "Ambient",
+    "color": "#AA44FF"
+  }
+}

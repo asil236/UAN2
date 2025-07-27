@@ -1,0 +1,5 @@
+PyQt5
+pydub
+pyloudnorm
+numpy
+pygame
